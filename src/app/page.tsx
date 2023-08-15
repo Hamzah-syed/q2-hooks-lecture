@@ -15,7 +15,12 @@ export default function Home() {
   };
   return (
     <>
-      <Button  handleCount={handleCount} accessKey="asds" count={count} name={"Increment"} />
+      <Button
+        handleCount={handleCount}
+        accessKey="asds"
+        count={count}
+        name={"Increment"}
+      />
       <Button handleCount={handleDecrement} count={count} name="Decrement" />
       <br />
       {/* <Button name={"Subscribe"} /> */}
